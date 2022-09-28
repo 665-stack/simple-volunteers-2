@@ -3,3 +3,14 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+
+.input-container {
+    margin: 20px 30px;
+}
+
+.input {
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
