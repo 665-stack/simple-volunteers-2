@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
+
 import useVolunteers from '../../Hooks/useVolunteers';
 import Activity from '../Activity/Activity';
 import './Main.css'
 
 const Main = () => {
-    const [volanteers, setVolanteers] = useVolunteers();
+    // ami caile setVolantrees take naw import korte pari. Shetar khub akta kaj akhane nai.
+    const [volanteers] = useVolunteers();
     return (
         <div>
             <h2>Valunteers activities: {volanteers.length}</h2>
